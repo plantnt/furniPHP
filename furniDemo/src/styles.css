@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/woi7umr.css");
+
+*{
+    font-family: "josefin-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.loginBody{
+    background-image: url('/assets/resources/loginBg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+:root{
+    --lightGray: #F0F0F0;
+    --purple: #9A6CC8;
+    --orange: #EA755B;
+}
+
+.buttonStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .3s ease;
+}

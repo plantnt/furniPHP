@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    border-bottom: 1px solid var(--lightGray);
+    background: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.searchGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+#searchBar{
+    width: 90%;
+    margin-right: 10px;
+    background: var(--lightGray);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#searchBar:focus{
+    outline: none; 
+    border: 1px solid var(--purple);
+}
+
+.containerButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerButton button{
+    margin-right: 15px;
+}
+
+#logIn{
+    background: var(--purple);
+    color: #fff;
+    font-weight: 800;
+}
+
+#signUp{
+    background: var(--orange);
+    color: #fff;
+    font-weight: 800;
+}
+
+#logIn:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+#signUp:hover{
+    opacity: .7;
+    cursor: pointer;
+}

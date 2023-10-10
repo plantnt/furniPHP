@@ -1,0 +1,16 @@
+<div class="loginBody">
+    <form (ngSubmit)="logInSubmit()" class="loginData">
+        <p>Ingresar</p>
+        <div class="inputData">
+            <label for="">
+                <p>Nombre de usuario</p>
+                <input type="text" name="userName" id="userName" [(ngModel)]="loginFormData.username" required>
+            </label>
+            <label for="">
+                <p>Contraseña</p>
+                <input type="password" name="userPassword" id="userPassword" [(ngModel)]="loginFormData.password" required>
+            </label>
+        </div>
+        <button type="submit" class="buttonStyle">Enviar</button>
+    </form>
+</div>

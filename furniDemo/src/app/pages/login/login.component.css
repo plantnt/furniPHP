@@ -1,0 +1,66 @@
+.loginBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px -5px #d9d9d9;
+}
+
+.loginData p{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.inputData{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 150px;
+    width: 90%  ;
+}
+
+.inputData p{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.inputData label{
+    width: 100%;
+}
+
+.inputData input{
+    height: 1.5em;
+    width: inherit;
+    border: none;
+    border-bottom: 1px solid var(--purple);
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.inputData input:focus{
+    outline: none;
+}
+
+.buttonStyle{
+    background-color: var(--purple);
+    color: #fff;
+}
+
+.buttonStyle:hover{
+    opacity: .7;
+    cursor: pointer;
+}

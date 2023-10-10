@@ -1,0 +1,15 @@
+<header>
+    <div class="container">
+        <a routerLink="/" id="textLogo"><img src="assets/resources/textLogo.png" alt="Furnimate" width="150px"></a>
+        <div class="searchGroup">
+            <input type="text" id="searchBar" placeholder="Buscar producto...">
+            <a routerLink="/" id="searchIcon"><img src="assets/resources/searchIcon.png" height="20px"></a>
+        </div>
+        <a routerLink="/" id="cartIcon"><img src="assets/resources/cartIcon.png" width="30px"></a>
+        <a routerLink="/" id="profileIcon" style="display: none;"><img src="assets/resources/profileIcon.png" width="30px"></a>
+        <div class="containerButton">
+            <button *ngIf="showButton" (click)="buttonVisible()" id="logIn" class="buttonStyle">Ingresar</button>
+            <button routerLink="/singUp" id="signUp" class="buttonStyle">Registrarse</button>
+        </div>
+    </div>
+</header>
